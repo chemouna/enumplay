@@ -11,7 +11,7 @@ public enum ExMonoFont implements MonoFont {
     private final String fontName;
     private final File location;
 
-    private ExMonoFont(String fontName, File location) {
+    ExMonoFont(String fontName, File location) {
         this.fontName = fontName;
         this.location = location;
     }

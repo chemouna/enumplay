@@ -13,7 +13,7 @@ public enum BasicMonoFont implements MonoFont {
     private final String fontName;
     private final File location;
 
-    private BasicMonoFont(String fontName, File location) {
+    BasicMonoFont(String fontName, File location) {
         this.fontName = fontName;
         this.location = location;
     }
